@@ -1,0 +1,25 @@
+#the-form {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+#the-form > div {
+    display: flex;
+    flex-direction: column;
+}
+#the-form input {
+    width: 300px;
+    height: 30px;
+    font-size: 18px;
+}
+#the-form label {
+    font-size: 16px;
+}
+#the-form span {
+    font-size: 14px;
+    color: red;
+}
+
+#the-form button {
+    width: 100px;
+}
